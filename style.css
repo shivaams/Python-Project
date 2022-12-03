@@ -1,0 +1,46 @@
+:root {
+    --color: #00ADB5
+} 
+.css-5uatcg:focus:not(:active) {
+    border-color: var(--color);
+    color: var(--color);
+}
+.css-5uatcg:focus{
+    box-shadow: var(--color) 0px 0px 0px 0.2rem;
+}
+.css-5uatcg:hover{
+    border-color: var(--color);
+    color: var(--color);
+}
+.css-5uatcg:active{
+    background-color:var(--color);
+}
+/* .st-b3 st-b6 st-b5 st-ar st-as.st-cl{
+    background-color: var(--color);
+} */
+.css-1dp5vir{
+    background-image: linear-gradient(90deg, var(--color), white,var(--color));
+    height: 1rem;
+}
+footer{
+    visibility: hidden;
+}
+#MainMenu {
+    visibility: hidden;
+}
+.css-x8wxsk:focus {
+    outline: none;
+    box-shadow: var(--color) 0px 0px 0px 1px;
+}
+.css-1rvyln1:focus{
+    border-color: var(--color);
+}
+.css-15jfpy5:hover:enabled, .css-15jfpy5:focus:enabled {
+    color: rgb(255, 255, 255);
+    background-color: var(--color);
+    transition: none 0s ease 0s;
+    outline: none;
+}
+.stProgress.st-b8{
+    background-color: var(--color);
+}
